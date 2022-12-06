@@ -29,6 +29,8 @@ let atletas = [
      notas.forEach (function (nota){
          media += nota;
      })
+       
+      media = media/ notas.length;
      
      console.log(`Atleta: ${atleta.nome} \n Notas Obtidas: ${atleta.notas.sort()} \n Média Válida: ${media}`);
        
